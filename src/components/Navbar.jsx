@@ -1,0 +1,25 @@
+import { NavLink } from 'react-router-dom';
+
+ function Navbar() {
+    return (
+        <nav className="navbar">
+            <div className="logo">
+                <h2>🐾 PetShop</h2>
+            </div>
+
+            <div className="nav-links">
+                <NavLink to="/" className="nav-link">
+                    Inicio
+                </NavLink>
+
+                <NavLink to="/perros" className="nav-link">
+                    Perros
+                </NavLink>
+
+                <NavLink to="/gatos" className="nav-link">
+                    Gatos
+                </NavLink>
+            </div>
+        </nav>
+    );
+} export default Navbar;
