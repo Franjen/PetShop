@@ -1,7 +1,7 @@
 import { gatos } from '../data/pets';
 import PetCard from '../components/PetCard';
 
-export default function Gatos() {
+function Gatos() {
   return (
     <div className="page">
       <h1>🐱 Nuestros Gatos</h1>

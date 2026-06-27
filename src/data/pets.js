@@ -6,7 +6,8 @@ export const perros = [
         edad: "2 años",
         precio: 450,
         imagen: "https://picsum.photos/id/237/300/200",
-        descripcion: "Amigable y juguetón, ideal para familias."
+        descripcion: "Amigable y juguetón, ideal para familias.",
+        tipo: "perro"
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export const perros = [
         edad: "1 año",
         precio: 520,
         imagen: "https://picsum.photos/id/201/300/200",
-        descripcion: "Muy inteligente y protectora."
+        descripcion: "Muy inteligente y protectora.",
+        tipo: "perro"
     },
     {
         id: 3,
@@ -24,36 +26,40 @@ export const perros = [
         edad: "3 años",
         precio: 380,
         imagen: "https://picsum.photos/id/669/300/200",
-        descripcion: "Tranquilo y cariñoso."
+        descripcion: "Tranquilo y cariñoso.",
+        tipo: "perro"
     }
 ];
 
 export const gatos = [
     {
-        id: 1,
+        id: 4,   // ← Cambiado
         nombre: "Milo",
         raza: "Siamés",
         edad: "1.5 años",
         precio: 320,
         imagen: "https://picsum.photos/id/40/300/200",
-        descripcion: "Elegante y muy vocal."
+        descripcion: "Elegante y muy vocal.",
+        tipo: "gato"
     },
     {
-        id: 2,
+        id: 5,   // ← Cambiado
         nombre: "Nala",
         raza: "Maine Coon",
         edad: "2 años",
         precio: 410,
         imagen: "https://picsum.photos/id/1015/300/200",
-        descripcion: "Grande, peludo y sociable."
+        descripcion: "Grande, peludo y sociable.",
+        tipo: "gato"
     },
     {
-        id: 3,
+        id: 6,   // ← Cambiado
         nombre: "Simba",
         raza: "Persa",
         edad: "3 años",
         precio: 290,
         imagen: "https://picsum.photos/id/1074/300/200",
-        descripcion: "Tranquilo y de pelaje largo."
+        descripcion: "Tranquilo y de pelaje largo.",
+        tipo: "gato"
     }
 ];
